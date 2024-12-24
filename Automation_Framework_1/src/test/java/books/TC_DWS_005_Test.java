@@ -19,6 +19,6 @@ public class TC_DWS_005_Test extends BaseClass {
 		hp=new HomePage(driver);
 		hp.getBooksLink().click();
 		Assert.assertEquals(driver.getTitle(), "Demo Web Shop. Book");
-		test.log(Status.PASS, "Books page should be displayed");
+		test.log(Status.PASS, "Books page should be display");
 	}
 }
